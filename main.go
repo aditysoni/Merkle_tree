@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"merkle-tree/tree"
+	"github.com/aditysoni/merkle-tree/tree"
 )
 
 func main() {
