@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 // NewMerkleTree constructs a tree from a slice of data blocks
-// contructs the tree in bottoms up way 
+// constructs the tree in bottoms up way 
 func NewMerkleTree(data [][]byte) *MerkleNode {
 	var nodes []MerkleNode
 
