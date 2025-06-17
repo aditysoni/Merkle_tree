@@ -35,6 +35,6 @@ func main() {
 	fmt.Println("\n🌳 Merkle Tree Structure:")
 	tree.PrintMerkleTree(root, 0)
 
-	fmt.Printf("\n🧮 Tree Depth: %d\n", tree.TreeDepth(root))
+	fmt.Printf("\n🧮 Tree Depth: %d\n", tree.PrintDepth(root))
 	fmt.Printf("🔗 Merkle Root Hash: %x\n", root.Hash)
 }
